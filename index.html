@@ -10,28 +10,38 @@
   <body>
     <header>
       <h1>Movie Search</h1>
-      <p>Search for movies, series, and episodes.</p>
+      <p>Search For Movies, Series, and Episodes.</p>
     </header>
 
     <main>
       <form id="search-form">
-        <label for="search-input">Movie title</label>
-
         <div>
+          <label for="search-input">Movie title</label>
           <input
             id="search-input"
             type="text"
-            placeholder="Enter a movie title"
+            placeholder="Enter a moie title"
             required
           />
           <button type="submit">Search</button>
         </div>
       </form>
 
-      <p id="message"></p>
+      <div id="status">
+        <div id="loading-spinner" class="spinner"></div>
+        <p id="message"></p>
+      </div>
 
       <section id="movie-results"></section>
     </main>
+
+    <div id="movie-modal" class="modal">
+      <div class="modal-content">
+        <span id="close-modal">&times;</span>
+
+        <div id="modal-body"></div>
+      </div>
+    </div>
 
     <script src="js/app.js"></script>
   </body>
