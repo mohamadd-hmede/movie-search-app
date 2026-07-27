@@ -4,6 +4,7 @@ const API_KEY = "96218944";
 
 const searchForm = document.getElementById("search-form");
 const searchInput = document.getElementById("search-input");
+const welcomeSection = document.getElementById("welcome-section");
 const loadingSpinner = document.getElementById("loading-spinner");
 const message = document.getElementById("message");
 const movieResults = document.getElementById("movie-results");
@@ -138,6 +139,8 @@ async function searchMovies(movieTitle) {
       message.textContent = data.Error;
       return;
     }
+
+    welcomeSection.style.display = "none";
 
     message.textContent = `${data.totalResults} results found`;
 
