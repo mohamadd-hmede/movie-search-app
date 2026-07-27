@@ -2,6 +2,14 @@
 
 A responsive movie search application built with HTML, CSS, and JavaScript using the OMDb API that allows users to search for movies. Users can browse movie results and view detailed information about each movie in a modal window.
 
+## Repository link
+
+https://github.com/mohamadd-hmede/movie-search-app.git
+
+## Live demo
+
+https://mohamadd-hmede.github.io/movie-search-app/
+
 ## Features
 
 - Search movies by title
