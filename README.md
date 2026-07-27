@@ -58,7 +58,7 @@ https://www.omdbapi.com/
 
 ### Search Results
 
-![Movie search results](assets/screenshots/search-results.png)
+![Movie search results](assets/screenshots/search-result.png)
 
 ### Movie Details
 
