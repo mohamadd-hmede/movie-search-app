@@ -25,6 +25,11 @@ A responsive movie search application built with HTML, CSS, and JavaScript using
 ```
 movie-search-app/
 │
+├── assets/
+│   └── screenshots/
+│       ├── search-results.png
+│       └── movie-details.png
+│
 ├── css/
 │   └── style.css
 │
